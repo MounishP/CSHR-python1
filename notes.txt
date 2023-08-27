@@ -1,0 +1,137 @@
+1. Inheritance -> 
+	Amarendra(Parent Class) -> mahendra(Child Class)
+	
+2. Polymorphism -> prabhas
+
+3. Abstraction -> 
+
+4. Encapsulation -> 
+
+--------------------------------------------------------------------------------------------
+Data Analyst/Python developer
+Back by 12:05
+
+Python
+	Before -> ABC Programming language
+	Founder -> Guido van Rossum
+	Year    -> 1991 (Python 0.9.0) current version 3.11.4
+
+IDLE -> Integrated development and learning env
+	Developed in Python
+	
+Python follows a set of rules PEP8
+
+
+Data Types:
+
+1. Primitive (single word/entity)[4,646][1.456]
+	Integer -> +ve,-ve,0
+	Float   -> decimal +ve,-ve[1.234,-4.2435]
+	Boolean -> True, False
+	*String[char] -> "a"/'a for apple'
+2. Non- primitive(multiple things/entity) [mounish][1,3,4,5,765]
+	Array
+	List
+	Tuple
+	Dictionary
+	Set
+	
+Variable -> representation of data
+
+ceil(3.999) -> 4
+
+Arthematic Operators:
++,-,*,/,
+// -> floor division -> 2.99999/2.000001
+% -> modulus -> 
+** -> power -> math.pow(x,y)
+
+							3)5(1
+							  3
+							-----
+							  2 -> remainder --> 5%3 = 2
+
+even number -> if the number is completely divisible(remainder ==0) by 2 then
+
+				Back by 12.20
+
+String Operations(+)
+----------------------------------------------------------------------------------------------------------
+Day 2
+-----
+
+Datatype conversions:
+
+1. Implicit -> python takes care of the conversions
+
+          10       10.0   -> float
+				   +1.2   -> float
+				=  11.2	  -> float
+				   
+2. Explicit -> Python doesnt take care of the conversions
+
+ord() -> convert a character into a integer
+hex() -> convert a integer into hexadecimal
+oct() -> convert a integer into a octal string
+
+-----------------------------------------------
+COnditional statements:
+
+1. If condition:
+
+	Syntax                if(condition):
+	                              ------
+								  ------
+								  ------
+								  
+								  
+								  Back by 12:15
+
+2. If else conditions
+	
+	Syntax:                if (condition):
+								-------
+								-------
+						   else:
+						        -------
+								-------
+
+3. if elif else conditions:
+	
+	Syntax:                 if(condition):
+								-----
+							elif (condition):
+								......
+							elif (condition):
+								******
+							else:
+								-----
+	Note:
+		there will always be only one else for one if
+		you can have any number of elif
+		only when all the if and elif conditions are false else is excuted
+
+4. Nested if else
+
+	Syntax: 				if(condition):
+								if(condition):
+									-----
+
+5. if with 'in' operator
+	
+	"string"  'r'
+	
+	
+Assignment:
+
+1. take a number as input find if the number is even or odd
+2. Take age as input send the patient to the respective hospitals following the terms:
+		age is 1 to 10 -> Apollo
+		age is 11 to 25 -> medicore
+		age 26 to 50 -> Care
+		age greater than 51 -> Narayana
+		age is 0     -> any Maternity house
+3. Take a number as input 
+	if the number divisible by 3 -> christmas
+	if the number divisible by 5 -> new year
+	if the number is divisible by 3 & 5 -> Diwali
