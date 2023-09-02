@@ -33,7 +33,29 @@
 #     print("n is negative number")
 
 
-if 'g' in "string":
-    print("value is present")
+# if 'g' in "string":
+#     print("value is present")
+# else:
+#     print("value is not present")
+
+prelims = bool(input("passed prelims"))
+mains = input("passed mains")
+interview = input("passed interview")
+training = input("passed taining")
+
+if prelims:
+    print("prelims passed")
+    if mains == "True":
+        print("passed mains")
+        if interview == "True":
+            print("passed interview")
+            if training == "True":
+                print("Training completed")
+            else:
+                print("Training not completed")
+        else:
+            print("failed interview")
+    else:
+        print("failed mains")
 else:
-    print("value is not present")
+    print("failed prelims")

@@ -135,3 +135,44 @@ Assignment:
 	if the number divisible by 3 -> christmas
 	if the number divisible by 5 -> new year
 	if the number is divisible by 3 & 5 -> Diwali
+---------------------------------------------------------------------------------------------
+Loops:
+
+If your looking to preform a task for multiple times then your using loops.
+
+1. While Loop
+2. For Loop
+
+1. Intialization
+2. Condition
+3. Incrementation
+
+While Loop:
+
+i = 0                 # initial
+while i < 100:        # condition
+    ------
+    ------
+    i = i+n           # incrementation
+
+
+For Loop:
+The initialization and incrementation are done by the For loop itself. For loop is run over a
+collection of objects.
+
+for iterator in iterable:
+iterable is the collection of data (list,set,range)
+item -> is the iterator which is used to run over the collection
+
+Range Function:
+
+range(start,stop) -> range(1,10) -> 1,9
+
+assignment:
+ARMSTRONG NUMBER:
+123 = 1^3+2^3+3^3 = 123
+12 = 1^2 + 2^2
+1234 = 1^4+2^4+3^4+4^4 = 1234
+
+STRONG NUMBER:
+123 = 1!+2!+3! = 123
