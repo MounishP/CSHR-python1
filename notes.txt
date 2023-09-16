@@ -176,3 +176,41 @@ ARMSTRONG NUMBER:
 
 STRONG NUMBER:
 123 = 1!+2!+3! = 123
+--------------------------------------------------------------------------------------
+Day 6:
+
+Functions:
+----------
+1. Creating our own functions
+    Define
+    Call
+2. Usage: Readability, Reusability
+
+Rules:
+First letter should always be lowercase.
+If there are multiple words first letter of the new word should be uppercase. [Camel casing]
+
+List:
+-----
+1. Collection of heterogenous items(different datatypes)
+2. written within '[]' and ',' separated
+3. List is mutable(controlable. editable)
+
+append & extend -> add element at the end of the list
+insert -> you can define the index of addition
+
+Assignment: check all the methods of list, tuple, dictionary
+
+Tuple:
+------
+1. It is almost similar to list
+2. Immutable -> cannot be edited
+3. represented by ()
+
+
+Dictionary:
+----------
+1.Key-Value pair
+2.represented by {} and separated by ','
+3.{1:'Python',2:'Course'}
+4. Key and Value can be of any datatype
