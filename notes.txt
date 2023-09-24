@@ -214,3 +214,36 @@ Dictionary:
 2.represented by {} and separated by ','
 3.{1:'Python',2:'Course'}
 4. Key and Value can be of any datatype
+
+---------------------------------------------------------------------------------------
+Day 9:
+------
+
+Python & Files:
+
+1. How to access the files
+2. how to read them
+3. how to write in them
+
+Modes in python files: READ(r) & WRITE(w)
+Append(a)
+
+Where do we use this?
+
+Local Variable -> within the functions or methods
+Global Variable -> through out the program
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
