@@ -232,12 +232,23 @@ Where do we use this?
 
 Local Variable -> within the functions or methods
 Global Variable -> through out the program
+--------------------------------------------------------------------------------------
+Day 13:
 
+OOPS:- Object Oriented programming system
 
+Object:
+pen, house, mobile            -> duplicate of class
 
+class: blueprint
 
+House1  -> class  (2 bhk)
+House2  -> class  (3 bhk)
+mounishHouse = House1()
+career = House1()
+school = House2()
 
-
+Interperter -> Object creation & destroying object
 
 
 

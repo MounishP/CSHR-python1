@@ -4,9 +4,9 @@
 
 file = open('test.txt', 'r')
 print(file.read())
-# for line in file:
-#     word = line.split()
-#     print(word)
+for line in file:
+    word = line.split()
+    print(word)
 
 # Writing
 # Shortcut to comment - Crtl+/
