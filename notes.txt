@@ -250,11 +250,19 @@ school = House2()
 
 Interperter -> Object creation & destroying object
 
+Day 14:
 
+Getters & Setters:
+Getter methods are used to get the existing data or value of the variable
+Setter methods are used to set the data or value to a variable
 
+Inheritance:
 
+The ability of a child class to access the parent class attributes or methods is called as
+Inheritance.
 
+parent(house method, car method) -> class
 
-
+child(Bike)  -> class
 
 
