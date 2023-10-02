@@ -1,0 +1,51 @@
+# Dell, Wellsfargo, HCL
+
+Program Statement: Library Management System
+
+Design and implement a Library Management System in Python to manage a collection of library items, patrons, and library staff. The system should support the following functionalities:
+
+Library Items:
+
+Create and maintain a catalog of library items, including books and magazines.
+Each library item should have a title, an author (for books) or a publisher (for magazines), and a status indicating whether it is checked out or available.
+Implement methods to check out and check in items.
+
+
+Patrons:
+
+Register patrons with the library, each having a unique name.
+Patrons should be able to:
+Check out library items.
+Return library items.
+View a list of items they have checked out.
+
+
+Library Staff (Librarian):
+
+Create a librarian who has limited patron privileges.
+Librarians cannot check out items but can perform other actions, such as registering patrons.
+
+
+Library:
+
+Create a library entity to manage the catalog of items, patrons, and the librarian.
+Display the library catalog, including the status of each item.
+Display a list of registered patrons.
+Allow the librarian to assign a librarian to the library.
+
+
+Main Program:
+
+Create instances of library items (books and magazines), patrons, and a librarian.
+Add these instances to the library.
+Demonstrate the functionality of the library system by:
+Patrons checking out and returning items.
+Displaying the catalog and registered patrons.
+The librarian trying to check out items (which should be disallowed).
+
+
+Inheritance:
+
+Implement inheritance to create classes for library items (e.g., Book and Magazine) that inherit from a common LibraryItem class.
+Use inheritance to create a Librarian class that inherits from the Patron class but with limited functionality.
+The program should showcase the use of conditional statements, loops, inheritance, and object-oriented principles to create an interactive and functional library management system.
