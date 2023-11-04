@@ -1,0 +1,46 @@
+1.Number Series Generator: Create a program that generates various number sequences
+(e.g., Fibonacci, prime numbers)
+    Answer: input 10
+            Output: 1,1,2,3,5,8,13,21,34
+
+2.Inventory Management System: Develop a system that manages products with classes and inheritance,
+including features for adding, removing, and updating items in an inventory.
+
+    class Product -> name, id
+
+    class Inventory
+        add product
+        remove product
+        update product
+        display all products
+
+3.Employee Payroll System: Build a payroll system with classes for different employee types
+(e.g., full-time, part-time) and calculate their salaries based on hours worked and pay rates.
+
+    class Employee -> name, empId
+    class FullTimeEmployee(Employee)
+    class PartTimeEmployee(Employee)
+
+4.Bank Account Management: Implement a simple banking system with inheritance,
+where you have different account types (e.g., savings, checking) and perform transactions.
+
+    class BankAccount-> accNo, balance
+        deposit()
+        withdraw()
+    class SavingsAccount(BankAccount) -> interestRate
+        applyinterest()
+
+5.Student Gradebook: Create a program for managing student grades, calculating averages,
+and determining their grades using conditional statements.
+
+    class Student -> name, grades
+        calculateAverage()
+        getGrade()
+
+
+6.Basic Text Editor:  opening, editing, and saving files.
+different file types.
+
+    createFile()
+    OpenFile()
+    appendText()

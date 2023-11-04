@@ -264,5 +264,10 @@ Inheritance.
 parent(house method, car method) -> class
 
 child(Bike)  -> class
+-------------------------------------------------------------------------------------------
 
+def name() -> Function
+
+class Class:
+    def name() -> Method
 
